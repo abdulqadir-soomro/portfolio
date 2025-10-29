@@ -2,7 +2,7 @@ import { NextResponse } from "next/server"
 
 export async function GET() {
   // Update this link to your latest resume URL
-  const resumeUrl = "https://drive.google.com/file/d/1RmDNn8x82ksNrv_3LHbxHATT5an9vdzm/view?usp=drive_link"
+  const resumeUrl = "https://drive.google.com/file/d/1hDp9MQVUw8pBYu4sv11XTtdlH5-YWE0J/view?usp=sharing"
   return NextResponse.redirect(resumeUrl, { status: 302 })
 }
 
